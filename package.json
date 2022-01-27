@@ -1,0 +1,40 @@
+{
+  "name": "similar-object",
+  "version": "1.0.1",
+  "license": "MIT",
+  "author": {
+    "name": "Leon Radley",
+    "email": "leon@radley.se",
+    "url": "https://leon.id"
+  },
+  "module": "./dist/index.js",
+  "exports": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  },
+  "keywords": [
+    "compare",
+    "sort",
+    "weight",
+    "similar",
+    "alike",
+    "related"
+  ],
+  "scripts": {
+    "test": "vitest",
+    "test:watch": "vitest watch",
+    "dev": "vite demo",
+    "preview": "vite preview demo",
+    "build": "tsc -p tsconfig.lib.json",
+    "publish": "npm run build && npm publish"
+  },
+  "devDependencies": {
+    "typescript": "4.5.5",
+    "vite": "2.7.2",
+    "vitest": "^0.2.4"
+  }
+}
